@@ -4,4 +4,5 @@ let number = Math.ceil(Math.random() *20);
 console.log(number);
 
 let switchImg = document.getElementById('image').style.backgroundImage = "url('../img/magic*ball_' + number + '.png')";
- document.getElementById('click_button').addEventListener('click', switchImg);
+
+document.getElementById('click_button').addEventListener('click', switchImg);
